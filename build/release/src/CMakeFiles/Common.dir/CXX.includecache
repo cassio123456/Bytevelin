@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../src/CryptoNoteConfig.h
+cstdint
+-
+initializer_list
+-
+
+/home/ubuntu/Bytevelin/src/Common/Util.cpp
+Util.h
+/home/ubuntu/Bytevelin/src/Common/Util.h
+cstdio
+-
+boost/filesystem.hpp
+-
+CryptoNoteConfig.h
+/home/ubuntu/Bytevelin/src/Common/CryptoNoteConfig.h
+windows.h
+-
+shlobj.h
+-
+strsafe.h
+-
+sys/utsname.h
+-
+
+/home/ubuntu/Bytevelin/src/Common/Util.h
+string
+-
+system_error
+-
+
